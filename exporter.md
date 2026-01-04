@@ -10,6 +10,6 @@ On the other hand, if they are rejected, marked as duplicate or if you withdraw 
 Of course, if you've planned previously you already have a marker on those locations, so the plugin tries to find if you have any such candidate less than 20 meters away from the new ones that it finds, and so it removes the existing ones to prevent cluttering your map with duplicated markers.
 
 ## Install
-You must be running the Tampermonkey extension in your browser (IITC mobile doesn't work), and add [this script](https://github.com/XWind18/ingress-opr-tool/raw/master/opr-exporter.user.js?inline=false).  
+You must be running the Tampermonkey extension in your browser (IITC mobile doesn't work), and add [this script](https://github.com/XWind18/ingress-opr-tool/raw/main/opr-exporter.user.js?inline=false).  
 Now just login to OPR and load the page with your nominations, the first time that you load it you'll be prompted for the URL of the script that you're using in OPR Planner, paste it and wait a few seconds, then load in another tab IITC and you'll see markers for your pending nominations.  
 Afterwards you only have to load the page and wait a few seconds after all your candidates are shown.

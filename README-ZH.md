@@ -37,7 +37,7 @@ IITC 无法显示不在 Ingress 中的 Wayspot。你可以使用 Geospatial Brow
 
 ## A. 安装 IITC 插件
 
-如果你想使用现有的表格，安装 <a href="https://github.com/XWind18/ingress-opr-tool/raw/master/opr-planner.user.js?inline=false">用户脚本</a>，加载 IITC 并输入脚本 URL。<br/>
+如果你想使用现有的表格，安装 <a href="https://github.com/XWind18/ingress-opr-tool/raw/main/opr-planner.user.js?inline=false">用户脚本</a>，加载 IITC 并输入脚本 URL。<br/>
 
 <img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/dialog.png"></img><br/>
 
@@ -100,7 +100,7 @@ https://script.google.com/macros/s/AKfycbyBx4dR0s8v1ZEsnuKFARfmibHiqTY20qO0EU3vR
 
  16. 点击复制来复制"网络应用"URL。稍后你将需要用到它。<br/>
 
- 17. 安装 <a href="https://github.com/XWind18/ingress-opr-tool/raw/master/opr-planner.user.js">用户脚本</a>。首次启动时，系统会提示你输入此 URL。<br/>
+ 17. 安装 <a href="https://github.com/XWind18/ingress-opr-tool/raw/main/opr-planner.user.js">用户脚本</a>。首次启动时，系统会提示你输入此 URL。<br/>
 <img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/enterscripturl.png"></img><br/>
 
 如果你使用了任何阻止 Google 域名的扩展（如 Privacy Badger），你需要为此域名解除阻止。<br/>
@@ -144,7 +144,7 @@ https://script.google.com/macros/s/AKfycbyBx4dR0s8v1ZEsnuKFARfmibHiqTY20qO0EU3vR
 
 ## 与原始 TotalRecon 的差异
 
-此插件最初是 https://github.com/Wintervorst/iitc/raw/master/plugins/totalrecon/ 的分支
+此插件最初是 https://github.com/Wintervorst/iitc/raw/main/plugins/totalrecon/ 的分支
 
 我建议为原始版本提供补丁以修复一些问题和改进，但该提议被拒绝，并被告知创建自己的分支，所以就有了这个项目。
 

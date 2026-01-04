@@ -33,7 +33,7 @@ and also this allows you to easily share your data between different devices, an
 It's easy to use, but it requires a bit of configuration if you want to create your own Google sheet. However, when you've completed the setup, it is a matter of installing the userscript and you are good to go.
 
 ## A. Install the plugin for IITC 
-If you want to make use of an existing sheet. Install the <a href="https://github.com/XWind18/ingress-opr-tool/raw/master/opr-planner.user.js?inline=false">userscript</a>, load IITC and enter the scripturl.<br/>
+If you want to make use of an existing sheet. Install the <a href="https://github.com/XWind18/ingress-opr-tool/raw/main/opr-planner.user.js?inline=false">userscript</a>, load IITC and enter the scripturl.<br/>
 <img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/dialog.png"></img><br/>
  You can test it out with this script url
 Test script url: https://script.google.com/macros/s/AKfycbyBx4dR0s8v1ZEsnuKFARfmibHiqTY20qO0EU3vRML4y4XW6wmu/exec<br/>
@@ -90,7 +90,7 @@ List of functions is at the end of this page.
 
  16. Copy the ‘Web app’ URL by clicking on copy. You will be needing it later on.<br/>
 
- 17. Install the <a href="https://github.com/XWind18/ingress-opr-tool/raw/master/opr-planner.user.js">userscript</a>. On first launch you will be prompted to enter this URL.<br/>
+ 17. Install the <a href="https://github.com/XWind18/ingress-opr-tool/raw/main/opr-planner.user.js">userscript</a>. On first launch you will be prompted to enter this URL.<br/>
 <img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/enterscripturl.png"></img><br/>
 If you're using any extension that blocks Google domains like Privacy Badger you'll have to unblock it for this domain.<br/>
 
@@ -128,7 +128,7 @@ You can use an additional plugin for TamperMonkey to automatically manage your d
 Read how to use it: [OPR Exporter](https://github.com/XWind18/ingress-opr-tool/blob/master/exporter.md)
 
 ## Differences from the original TotalRecon
-This plugin started as a fork of https://github.com/Wintervorst/iitc/raw/master/plugins/totalrecon/  
+This plugin started as a fork of https://github.com/Wintervorst/iitc/raw/main/plugins/totalrecon/  
 
 I suggested to provide patches to the original version in order to fix some issues and improvements, but the offer was declined and told to create my own fork, so here it is.  
 1. Removed some unused code from previous plugins and fix errors like one that happened when a layer is enabled/disabled.  

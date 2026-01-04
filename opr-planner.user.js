@@ -4,14 +4,14 @@
 // @category     Layer
 // @version      1.181
 // @namespace    https://github.com/XWind18/ingress-opr-tool
-// @downloadURL  https://github.com/XWind18/ingress-opr-tool/raw/master/opr-planner.user.js
-// @updateURL    https://github.com/XWind18/ingress-opr-tool/raw/master/opr-planner.user.js
+// @downloadURL  https://github.com/XWind18/ingress-opr-tool/raw/main/opr-planner.user.js
+// @updateURL    https://github.com/XWind18/ingress-opr-tool/raw/main/opr-planner.user.js
 // @homepageURL  https://github.com/XWind18/ingress-opr-tool
 // @description  Place markers on the map for your candidates in OPR.
 // @match        https://intel.ingress.com/*
 // @grant none
 // ==/UserScript==
-/* forked from https://github.com/Wintervorst/iitc/raw/master/plugins/totalrecon/ */
+/* forked from https://github.com/Wintervorst/iitc/raw/main/plugins/totalrecon/ */
 
 /* eslint-env es6 */
 /* eslint no-var: "error" */

@@ -3,8 +3,8 @@
 // @version      0.11
 // @description  Export nominations data from OPR to IITC in OPR Planner
 // @namespace    https://github.com/XWind18/ingress-opr-tool
-// @downloadURL  https://github.com/XWind18/ingress-opr-tool/raw/master/opr-exporter.user.js
-// @updateURL    https://github.com/XWind18/ingress-opr-tool/raw/master/opr-exporter.user.js
+// @downloadURL  https://github.com/XWind18/ingress-opr-tool/raw/main/opr-exporter.user.js
+// @updateURL    https://github.com/XWind18/ingress-opr-tool/raw/main/opr-exporter.user.js
 // @homepageURL  https://github.com/XWind18/ingress-opr-tool
 // @match        https://opr.ingress.com/*
 // ==/UserScript==

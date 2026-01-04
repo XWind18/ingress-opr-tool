@@ -3,7 +3,7 @@
 // @version      0.3.3
 // @description  Add translate option to OPR
 // @namespace    https://github.com/XWind18/ingress-opr-tool
-// @downloadURL  https://github.com/XWind18/ingress-opr-tool/raw/master/opr-translate.user.js
+// @downloadURL  https://github.com/XWind18/ingress-opr-tool/raw/main/opr-translate.user.js
 // @homepageURL  https://github.com/XWind18/ingress-opr-tool
 // @match        https://opr.ingress.com/*
 // ==/UserScript==
