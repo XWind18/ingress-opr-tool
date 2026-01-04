@@ -23,15 +23,15 @@ IITC 无法显示不在 Ingress 中的 Wayspot。你可以使用 Geospatial Brow
 
 你可以规划在哪里提交候选 Portal，确保它们距离现有 Portal 至少 20 米，如果可能的话不要与其他现有 Portal 共享同一个 17 级 Cell，甚至可以跟踪编辑请求以将事物放置在正确的位置。效果如下：
 
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/markersonthemap.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/markersonthemap.png"></img><br/>
 
 你也可以使用绘图工具来完成，但这不如直接在地图上点击方便，而且可以填写额外的信息以便日后记住这是关于什么的：
 
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/mapwitheditdialogue.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/mapwitheditdialogue.png"></img><br/>
 
 这也允许你在不同设备之间轻松共享数据，甚至可以与其他队友共享计划，避免重复提交同一候选，因为数据存储在 Google 表格中。
 
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/filledsheet.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/filledsheet.png"></img><br/>
 
 使用起来很简单，但如果你想创建自己的 Google 表格，需要进行一些配置。不过，完成设置后，只需安装用户脚本即可开始使用。
 
@@ -39,7 +39,7 @@ IITC 无法显示不在 Ingress 中的 Wayspot。你可以使用 Geospatial Brow
 
 如果你想使用现有的表格，安装 <a href="https://github.com/XWind18/ingress-opr-tool/raw/master/opr-planner.user.js?inline=false">用户脚本</a>，加载 IITC 并输入脚本 URL。<br/>
 
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/dialog.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/dialog.png"></img><br/>
 
 你可以使用这个测试脚本 URL：
 ```
@@ -56,52 +56,52 @@ https://script.google.com/macros/s/AKfycbyBx4dR0s8v1ZEsnuKFARfmibHiqTY20qO0EU3vR
 
  1. 访问：https://docs.google.com/spreadsheets/u/0/
  2. 创建一个新的空白电子表格<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/startnewspreadsheet.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/startnewspreadsheet.png"></img><br/>
 
  3. 转到"扩展程序"→"Apps Script"<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/extensionsmenu.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/extensionsmenu.png"></img><br/>
 
  4. 删除 Code.gs 中的内容，粘贴此 <a href="Code.gs">Code.gs</a> 文件的内容，然后点击"保存"按钮<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/setsheetscriptcontent.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/setsheetscriptcontent.png"></img><br/>
 
  5. 转到"initialSetup"并选择函数"initialSetup"<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/setinitialsetup.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/setinitialsetup.png"></img><br/>
 
  6. 点击"运行"按钮执行<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/runinitialsetup.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/runinitialsetup.png"></img><br/>
 
  7. 弹出对话框，选择"查看权限"<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/authorizationrequired.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/authorizationrequired.png"></img><br/>
 
  8. 选择适当的 Google 账户<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/choosegoogleaccount.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/choosegoogleaccount.png"></img><br/>
 
  9. 选择"高级"<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/chooseadvanced.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/chooseadvanced.png"></img><br/>
 
  10. 转到"无标题项目"<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/gotountitled.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/gotountitled.png"></img><br/>
 
  11. 选择你的 Google 账户并点击"允许"<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/chooseallow.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/chooseallow.png"></img><br/>
 
  12. 初始设置将运行，表格将使用正确的列和列设置进行准备（切换到工作表查看表格）<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/scriptlog.png"></img><br/><br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/sheetcolumnsfilled.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/scriptlog.png"></img><br/><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/sheetcolumnsfilled.png"></img><br/>
 
  13. 返回 Apps Script 并选择"部署"→"新建部署"<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/deploy.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/deploy.png"></img><br/>
 
  14. 将"有权访问的用户"设置为"所有人"<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/deploywebapp.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/deploywebapp.png"></img><br/>
 
  15. 选择"部署"<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/copywebappurl.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/copywebappurl.png"></img><br/>
 
  16. 点击复制来复制"网络应用"URL。稍后你将需要用到它。<br/>
 
  17. 安装 <a href="https://github.com/XWind18/ingress-opr-tool/raw/master/opr-planner.user.js">用户脚本</a>。首次启动时，系统会提示你输入此 URL。<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/enterscripturl.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/enterscripturl.png"></img><br/>
 
 如果你使用了任何阻止 Google 域名的扩展（如 Privacy Badger），你需要为此域名解除阻止。<br/>
 
@@ -122,16 +122,16 @@ https://script.google.com/macros/s/AKfycbyBx4dR0s8v1ZEsnuKFARfmibHiqTY20qO0EU3vR
 ## 功能列表
 
 侧边栏中添加了一个新链接"OPR"，你可以点击它打开设置对话框。<br />
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/dialog.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/dialog.png"></img><br/>
 
 当你启用"在地图上点击以添加标记"复选框时，你可以在地图上点击以添加新标记<br />
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/clickonmap.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/clickonmap.png"></img><br/>
 
 你会看到所有输入和更改都将存储在你的 Google 表格中。你可以与任何你想要的人共享表格，或保留给自己。删除标记只需从表格中删除一行即可。<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/filledsheet.png"></img>/<br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/filledsheet.png"></img>/<br/>
 
 你可以通过点击右上角的符号在 IITC 的图层菜单中打开或关闭多个图层。<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/layer.png"><img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/layerselection.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/layer.png"><img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/layerselection.png"></img><br/>
 
 要刷新标记集，你可以使用对话框中的"更新候选数据"链接。
 

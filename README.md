@@ -22,19 +22,19 @@ Thanks to the original author for the excellent work! If you need the original v
 ## OPR Planner, an IITC plugin to help you nominate and keep track of your candidates
 
 You can plan where to submit your candidates so they are at least 20m away from existing Portals, if possible don't share the same Level 17 cell as other existing Portals, even track possible edit requests to put things in their proper locations. Something like this: 
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/markersonthemap.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/markersonthemap.png"></img><br/>
 You could do it using Draw tools, but it's not as easy as clicking on the map, and fill any additional info to remember later what this was about
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/mapwitheditdialogue.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/mapwitheditdialogue.png"></img><br/>
 
 and also this allows you to easily share your data between different devices, and even share plans with other teammates to avoid sending the same candidate twice, as it's stored in a Google Sheet.
 
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/filledsheet.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/filledsheet.png"></img><br/>
 
 It's easy to use, but it requires a bit of configuration if you want to create your own Google sheet. However, when you've completed the setup, it is a matter of installing the userscript and you are good to go.
 
 ## A. Install the plugin for IITC 
 If you want to make use of an existing sheet. Install the <a href="https://github.com/XWind18/ingress-opr-tool/raw/master/opr-planner.user.js?inline=false">userscript</a>, load IITC and enter the scripturl.<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/dialog.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/dialog.png"></img><br/>
  You can test it out with this script url
 Test script url: https://script.google.com/macros/s/AKfycbyBx4dR0s8v1ZEsnuKFARfmibHiqTY20qO0EU3vRML4y4XW6wmu/exec<br/>
 Keep in mind that this a shared sheet, after checking that the plugin works as expected you must use your own sheet instead of this one.<br/>
@@ -46,52 +46,52 @@ List of functions is at the end of this page.
 
  1. Go to: https://docs.google.com/spreadsheets/u/0/
  2. Start a new, blank, spreadsheet<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/startnewspreadsheet.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/startnewspreadsheet.png"></img><br/>
 
  3. Go to ‘Extensions’ -> ‘Apps Script’<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/extensionsmenu.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/extensionsmenu.png"></img><br/>
 
  4. Remove content in Code.gs and paste the content from this <a href="Code.gs">Code.gs</a> file and click the ‘Save’ Button<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/setsheetscriptcontent.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/setsheetscriptcontent.png"></img><br/>
 
  5. Go to ‘initialSetup’ and select the function ‘initialSetup’<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/setinitialsetup.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/setinitialsetup.png"></img><br/>
 
  6. Click the ‘Run’ button to run<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/runinitialsetup.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/runinitialsetup.png"></img><br/>
 
  7. A dialogue pops up, choose ‘review permissions’<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/authorizationrequired.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/authorizationrequired.png"></img><br/>
 
  8. Choose the appropriate google account<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/choosegoogleaccount.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/choosegoogleaccount.png"></img><br/>
 
  9. Choose advanced<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/chooseadvanced.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/chooseadvanced.png"></img><br/>
 
  10. Go to ‘Untitled project’<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/gotountitled.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/gotountitled.png"></img><br/>
 
  11. Choose your Google account and click ‘Allow’<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/chooseallow.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/chooseallow.png"></img><br/>
 
  12. The initialsetup will be run and the sheet will be prepared with the proper columns and column settings (switch to sheet to see the table)<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/scriptlog.png"></img><br/><br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/sheetcolumnsfilled.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/scriptlog.png"></img><br/><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/sheetcolumnsfilled.png"></img><br/>
 
  13. Go back to Apps script and choose ‘Publish’ -> ’New deployment’<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/deploy.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/deploy.png"></img><br/>
 
  14. Set ‘Who has access’ to ‘Anyone’.<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/deploywebapp.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/deploywebapp.png"></img><br/>
 
  15. And choose ‘Deploy’<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/copywebappurl.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/copywebappurl.png"></img><br/>
 
  16. Copy the ‘Web app’ URL by clicking on copy. You will be needing it later on.<br/>
 
  17. Install the <a href="https://github.com/XWind18/ingress-opr-tool/raw/master/opr-planner.user.js">userscript</a>. On first launch you will be prompted to enter this URL.<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/enterscripturl.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/enterscripturl.png"></img><br/>
 If you're using any extension that blocks Google domains like Privacy Badger you'll have to unblock it for this domain.<br/>
 
 You will need to share this URL with all people and/or devices who will share the same set of data.
@@ -109,15 +109,15 @@ If for some reason there's a need to update the script in code.gs, follow these 
 
 ## List of functions
 A new link "OPR" is added in the sidebar, you can click it to open the settings dialog.<br />
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/dialog.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/dialog.png"></img><br/>
 When you enable the "Click on the map to add markers" checkbox, then you can click on the map to add new markers<br />
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/clickonmap.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/clickonmap.png"></img><br/>
 
 You will see that all input and changes will be stored in your Google sheet. You can share the sheet with whomever you like, or keep it to yourself. Removing markers is a matter of removing a row from the sheet.<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/filledsheet.png"></img>/<br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/filledsheet.png"></img>/<br/>
 
 You can toggle several layers on and off in the layer menu in IITC, by clicking at the symbol in the top right corner.<br/>
-<img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/layer.png"><img src="https://github.com/XWind18/ingress-opr-tool/raw/master/assets/layerselection.png"></img><br/>
+<img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/layer.png"><img src="https://github.com/XWind18/ingress-opr-tool/raw/main/assets/layerselection.png"></img><br/>
 
 To refresh the markerset you can use the "Update candidate data" link in the dialog.
 
